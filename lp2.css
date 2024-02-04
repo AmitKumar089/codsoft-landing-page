@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+    background-color: #a79695dc;
+}
+
+a {
+    text-decoration: none;
+    color: #1094f3;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.name{
+    align-items: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #057e99;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(232, 226, 226);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.hotel-name {
+    text-align: center;
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif,'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: #a58004bc;
+  }
+  
+.logo img {
+    max-width: 150px;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    font-weight: bold;
+}
+.hero {
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.hero img {
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f4f0ee;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about img {
+    position: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Rooms section */
+.rooms {
+    padding: 50px;
+}
+
+.rooms h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.rooms p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.room-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room-card {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ad90a2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.room-card img {
+    margin-bottom: 10px;
+}
+
+.room-card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.room-card p {
+    line-height: 1.5;
+}
+
+/* Dining section */
+.dining {
+    padding: 50px;
+}
+
+.dining h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.dining p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.restaurant-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-left: 450px;
+    background-color: #f8b7637f;
+
+    color: white;
+  }
+  
